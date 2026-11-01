@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.seccion {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#infoSeccion p {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #333;
+}
+
+#preview {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
